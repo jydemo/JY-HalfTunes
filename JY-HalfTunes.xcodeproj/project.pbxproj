@@ -12,6 +12,10 @@
 		5C00E7D51EA8A3F2003A5204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C00E7D31EA8A3F2003A5204 /* Main.storyboard */; };
 		5C00E7D71EA8A3F2003A5204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C00E7D61EA8A3F2003A5204 /* Assets.xcassets */; };
 		5C00E7DA1EA8A3F2003A5204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C00E7D81EA8A3F2003A5204 /* LaunchScreen.storyboard */; };
+		5C00E7E21EA8A9C9003A5204 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C00E7E11EA8A9C9003A5204 /* SearchViewController.swift */; };
+		5C00E7E41EA8AB2A003A5204 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C00E7E31EA8AB2A003A5204 /* TrackCell.swift */; };
+		5C00E7E61EA8B2C3003A5204 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C00E7E51EA8B2C3003A5204 /* Track.swift */; };
+		5C4BFD291EAB2F470058034F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BFD281EAB2F470058034F /* Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5C00E7D61EA8A3F2003A5204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C00E7D91EA8A3F2003A5204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C00E7DB1EA8A3F2003A5204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C00E7E11EA8A9C9003A5204 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5C00E7E31EA8AB2A003A5204 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		5C00E7E51EA8B2C3003A5204 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		5C4BFD281EAB2F470058034F /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		5C00E7C31EA8A3F2003A5204 = {
 			isa = PBXGroup;
 			children = (
+				5C4BFD281EAB2F470058034F /* Download.swift */,
 				5C00E7CE1EA8A3F2003A5204 /* JY-HalfTunes */,
 				5C00E7CD1EA8A3F2003A5204 /* Products */,
 			);
@@ -60,6 +69,9 @@
 				5C00E7D61EA8A3F2003A5204 /* Assets.xcassets */,
 				5C00E7D81EA8A3F2003A5204 /* LaunchScreen.storyboard */,
 				5C00E7DB1EA8A3F2003A5204 /* Info.plist */,
+				5C00E7E11EA8A9C9003A5204 /* SearchViewController.swift */,
+				5C00E7E31EA8AB2A003A5204 /* TrackCell.swift */,
+				5C00E7E51EA8B2C3003A5204 /* Track.swift */,
 			);
 			path = "JY-HalfTunes";
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C00E7E21EA8A9C9003A5204 /* SearchViewController.swift in Sources */,
+				5C00E7E61EA8B2C3003A5204 /* Track.swift in Sources */,
 				5C00E7D21EA8A3F2003A5204 /* ViewController.swift in Sources */,
+				5C4BFD291EAB2F470058034F /* Download.swift in Sources */,
 				5C00E7D01EA8A3F2003A5204 /* AppDelegate.swift in Sources */,
+				5C00E7E41EA8AB2A003A5204 /* TrackCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				5C00E7E01EA8A3F2003A5204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

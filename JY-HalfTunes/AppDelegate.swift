@@ -12,11 +12,20 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    let tintColor = UIColor(red: 242 / 255, green: 71 / 255, blue: 63 / 255, alpha: 1)
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        customizeAppearance()
         return true
+    }
+    
+    fileprivate func customizeAppearance() {
+        window?.tintColor = tintColor
+        UISearchBar.appearance().barTintColor = tintColor
+        UINavigationBar.appearance().barTintColor = tintColor
+        UINavigationBar.appearance().tintColor = UIColor.white
+        //UINavigationBar.appearance()
+    
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
